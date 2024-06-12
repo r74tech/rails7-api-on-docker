@@ -32,7 +32,7 @@ services:
       timeout: 5s
       retries: 30
   redis:
-    image: redis
+    image: redis:7.0
     volumes:
       - redis_data:/data
 

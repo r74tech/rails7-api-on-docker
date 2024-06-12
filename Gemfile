@@ -35,6 +35,13 @@ gem "bootsnap", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 # gem "rack-cors"
 
+# Use i18n for internationalization [https://guides.rubyonrails.org/i18n.html]
+gem "i18n_generators"
+gem "rails-i18n"
+
+# Use dotenv to load environment variables from .env into ENV in development
+gem "dotenv-rails"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
